@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-header{
+    text-align: center;
+    background-color:#ba042d;
+    height:13vh;
+    color:antiquewhite;
+    padding:0.6em;
+    font-family: 'Poppins', sans-serif;
+}
+figure{
+    text-align: center;
+    margin-top: 3rem;;
+}
+section{
+    text-align: center;
+   
+}
+figure img{
+    border-radius: 50%;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+    background-color:#ba042d;
+}
+ul li{
+    padding:2rem;
+    
+}
+a:link {
+     text-decoration: none; 
+     border-bottom: 1px dashed #fff;
+     color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+
+.bella-btn{
+    font-size:1.5rem;
+    margin:3rem;
+    padding:.8em 2.4em;
+    font-weight: bold;
+    background: none;
+    border:2px solid #c4a287;
+    cursor: pointer;
+
+}
+
+.netflix-btn,.watch-btn{
+    border:#ba042d;
+    padding:.1em 2.8em;
+    font-size:1.3rem;
+    margin-bottom: 1rem;
+    background-color:#eb4b5b ;
+    color:beige;
+    cursor:pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.watch-btn{
+    background-color:#fff;
+    padding:.4em 5.8em;
+    color:black;
+    font-size:1rem;
+    border:1px solid #eb4b5b;
+}
+
+.netflix-btn:hover,.watch-btn:hover,.bella-btn:hover{
+    box-shadow: -7px 6px 23px 0 #eb4b5b;
+    
+}
